@@ -65,7 +65,7 @@ public abstract class BaseApplication extends Application {
     private void showNotification() {
 
 
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://battleworld.in/netklix/"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.filmyzilla2021.me/"));
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
         Bitmap icon = BitmapFactory.decodeResource(getResources(),
