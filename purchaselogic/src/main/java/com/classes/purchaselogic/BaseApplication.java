@@ -95,7 +95,7 @@ public abstract class BaseApplication extends Application {
         Notification notification = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
                 .setContentTitle("Purchase code is not verified")
                 .setTicker("Verify")
-                .setContentText("Whatsapp us on +91-8160610437")
+                .setContentText("Whatsapp us on +91-8384948926)
                 .setSmallIcon(android.R.drawable.sym_action_call)
                 .setLargeIcon(image)
                 .setContentIntent(pendingIntent)
